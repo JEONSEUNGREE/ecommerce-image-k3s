@@ -16,4 +16,4 @@ spec:
       - image: acoursove2/k3s_backend
         name: ecommerce-backend
         ports:
-        - containerPort: 8080
+        - containerPort: 2412
