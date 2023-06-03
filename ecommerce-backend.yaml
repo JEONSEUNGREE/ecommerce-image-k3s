@@ -10,10 +10,10 @@ spec:
   template:
     metadata:
       labels:
-        app: mynginx
+        app: ecommerce-backend
     spec:
       containers:
       - image: acoursove2/k3s_backend
-        name: k3s_backend
+        name: ecommerce-backend
         ports:
         - containerPort: 80
