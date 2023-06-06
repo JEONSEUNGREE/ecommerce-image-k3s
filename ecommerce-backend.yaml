@@ -13,7 +13,7 @@ spec:
         app: ecommerce-backend
     spec:
       containers:
-      - image: acoursove2/k3s_backend
+      - image: acoursove2/k3s_backend:latest
         name: ecommerce-backend
         ports:
         - containerPort: 2412
